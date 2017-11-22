@@ -4,8 +4,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="author" content="Toby Reznov, Jason Cemra">
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Toby Reznov, Jason Cemra">
 
 	<!-- For that slick site preview -->
 	<meta property="og:title" content="{{ site.preview-title }}">
@@ -16,16 +18,38 @@
 
 	<link rel="stylesheet" type="text/css" href="/styles/main.css">
 	<link rel="icon" href="/img/favicon/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
 </head>
 <body>
 
-	<h1>{{ site.title }}</h1>
-	<h2> Stickers by {{ site.sticker-author }} • Web Design by {{ site.site-author }} </h2>
+<div class="wrapper">
+	<header>	
+		<h1>{{ site.title }}</h1>
+		<h2> Stickers by {{ site.stickers-author }} • Website by {{ site.site-author }} </h2>
+	</header>
 
-	{% for sticker in site.data.stickers %}
-		<img src="/img/stickers/{{ sticker.file }}">
-		<h3>{{ sticker.name }}</h3>
-	{% endfor %}
+	<div class="jumbotron">
+		<img src="/img/stickers/stars.jpg">
+		<h3>Big boi image here</h3>
+	</div>
+	
+	<hr>
+
+	<div class="sticker-set">
+		{% for sticker in site.data.stickers %}
+		<div class="sticker-group">
+			<img src="/img/stickers/{{ sticker.file }}">
+			<h3>{{ sticker.name }}</h3>
+		</div>
+		{% endfor %}
+	</div>
+
+	<footer>
+		<p>All sticker designs © Toby Reznov. Website design and files © Jason Cemra </p>
+		<p>Web hosting generously provided by Github Pages.</p>
+	</footer>
+
+</div>
 
 </body>
 </html>
