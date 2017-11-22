@@ -16,8 +16,8 @@
 
 	<title>{{ site.title }}</title>
 
-	<link rel="stylesheet" type="text/css" href="/styles/main.css">
-	<link rel="icon" href="/img/favicon/favicon.png">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<link rel="icon" href="./img/favicon/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -29,7 +29,7 @@
 	</header>
 
 	<div class="jumbotron">
-		<img src="/img/stickers/stars.jpg">
+		<img src="./img/stickers/stars.jpg">
 		<h3>Big boi image here</h3>
 	</div>
 	
@@ -38,14 +38,14 @@
 	<div class="sticker-set">
 		{% for sticker in site.data.stickers %}
 		<div class="sticker-group">
-			<img src="/img/stickers/{{ sticker.file }}">
+			<img src="./img/stickers/{{ sticker.file }}">
 			<h3>{{ sticker.name }}</h3>
 		</div>
 		{% endfor %}
 	</div>
 
 	<footer>
-		<p>All sticker designs © Toby Reznov. Website design and files © Jason Cemra </p>
+		<p>All sticker designs © Toby Reznov. Website design © Jason Cemra </p>
 		<p>Web hosting generously provided by Github Pages.</p>
 	</footer>
 
