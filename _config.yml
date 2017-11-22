@@ -5,6 +5,8 @@ description: Home of the Facebook Penguin Sticker set.
 stickers-author: Toby Reznov
 site-author: Jason Cemra
 
+canonical-url: https://cemrajc.github.io/penguin-stickers
+
 
 # Build settings
 markdown: kramdown
