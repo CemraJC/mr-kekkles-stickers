@@ -1,0 +1,22 @@
+title: Penguin Stickers
+preview-title: Penguin Stickers - by Tobae.
+description: Home of the Facebook Penguin Sticker set.
+
+stickers-author: Toby Reznov
+site-author: Jason Cemra
+
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

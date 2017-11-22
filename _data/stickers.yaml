@@ -1,0 +1,35 @@
+- name: Sassly Sass
+  file: sassy.jpg
+
+- name: Glasses
+  file: glasses.jpg
+
+- name: Snazzly Dazzly
+  file: 500x500.png
+
+- name: Woo Hoo!
+  file: 500x500.png
+
+- name: Sneezel
+  file: 500x500.png
+
+- name: Cheerio
+  file: 500x500.png
+
+- name: Laying down on the sand
+  file: 200x300.png
+
+- name: Questionable Statistic
+  file: 200x300.png
+
+- name: Take five
+  file: 500x500.png
+
+- name: Hold my Beer
+  file: 200x300.png
+
+- name: Classic Gentleman
+  file: 200x300.png
+
+- name: Starry sky
+  file: stars.jpg
