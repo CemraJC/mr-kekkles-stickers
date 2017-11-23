@@ -12,14 +12,14 @@
 	<!-- For that slick site preview -->
 	<meta property="og:url" content="{{ site.canonical-url }}">
 	<meta property="og:title" content="{{ site.preview-title }}">
-	<meta property="og:image" content="./img/preview-img.jpg">
+	<!-- <meta property="og:image" content="{{ site.canonical-url }}/img/preview-img.jpg"> -->
 	<meta property="og:description" content="{{ site.description }}">
 	<meta property="og:type" content="website" />
 
 	<title>{{ site.title }}</title>
 
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
-	<link rel="icon" href="./img/favicon/favicon.png">
+	<link rel="icon" href="{{ site.canonical-url }}/img/favicon/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -40,7 +40,17 @@
 	<div class="sticker-set">
 		{% for sticker in site.data.stickers %}
 		<div class="sticker-group">
+			{% if sticker.story %}
+			<div class="story-group">
+				<input type="checkbox" id="chk-{{sticker.file}}">
+				<label for="chk-{{sticker.file}}"><img src="./img/stickers/{{ sticker.file }}"></label>
+				<div class="story">
+					<p>{{ sticker.story }}</p>
+				</div>
+			</div>
+			{% else %}
 			<img src="./img/stickers/{{ sticker.file }}">
+			{% endif %}
 			<h3>{{ sticker.name }}</h3>
 		</div>
 		{% endfor %}

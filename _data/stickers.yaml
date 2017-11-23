@@ -1,8 +1,14 @@
 - name: Sassly Sass
   file: sassy.jpg
+  story: >
+        Here is the story all about a man
+        who's life got flipped turned upside down
 
 - name: Glasses
   file: glasses.jpg
+  story: >
+        If you would like to see the yodeling, please form 
+        an "orderly orderly orderly orderly queue"
 
 - name: Snazzly Dazzly
   file: 500x500.png
@@ -15,6 +21,9 @@
 
 - name: Cheerio
   file: 500x500.png
+  story: >
+        One day, I was sat at the table eating cereal.
+        Then I realised, it was not cereal, but toast.
 
 - name: Laying down on the sand
   file: 200x300.png
@@ -27,6 +36,9 @@
 
 - name: Hold my Beer
   file: 200x300.png
+  story: >
+        0 bottles of beer on the wall, 0 bottles of beer!
+        Take one down, pass it around, -4294967296 bottles of beer on the wall!
 
 - name: Classic Gentleman
   file: 200x300.png
