@@ -65,14 +65,13 @@
   file: what-cookie.png
   scale: 80
 
-- name: youre a wizard!
-  file: youre-a-wizard.png
-  scale: 50
+- name: pure wizardry!
+  file: pure-wizardry.png
+  scale: 95
 
 - name: bon voyage
   file: bon-voyage.png
   scale: 52
-
 
 - name: gone tumbling
   file: gone-tumbling.png
