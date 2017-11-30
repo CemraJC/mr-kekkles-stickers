@@ -1,47 +1,99 @@
-- name: Sassly Sass
-  file: sassy.jpg
-  story: >
-        Here is the story all about a man
-        who's life got flipped turned upside down
+- name: there are no words.
+  file: there-are-no-words.png
+  scale: 50
 
-- name: Glasses
-  file: glasses.jpg
-  story: >
-        If you would like to see the yodeling, please form 
-        an "orderly orderly orderly orderly queue"
-
-- name: Snazzly Dazzly
-  file: 500x500.png
-
-- name: Woo Hoo!
-  file: 500x500.png
-
-- name: Sneezel
-  file: 500x500.png
-
-- name: Cheerio
-  file: 500x500.png
+- name: woohoo!
+  file: woohoo.png
+  scale: 50
   story: >
         One day, I was sat at the table eating cereal.
         Then I realised, it was not cereal, but toast.
 
-- name: Laying down on the sand
-  file: 200x300.png
+- name: jolly good show!
+  file: jolly-good-show.png
+  scale: 50
 
-- name: Questionable Statistic
-  file: 200x300.png
+- name: adventure awaits!
+  file: adventure-awaits.png
+  scale: 100
 
-- name: Take five
-  file: 500x500.png
+- name: a hug will help.
+  file: a-hug-will-help.png
+  scale: 60
 
-- name: Hold my Beer
-  file: 200x300.png
-  story: >
-        0 bottles of beer on the wall, 0 bottles of beer!
-        Take one down, pass it around, -4294967296 bottles of beer on the wall!
+- name: something scrumptious?
+  file: something-scrumptious.png
+  scale: 90
 
-- name: Classic Gentleman
-  file: 200x300.png
+- name: nighty night.
+  file: nighty-night.png
+  scale: 65
 
-- name: Starry sky
-  file: stars.jpg
+- name: pls no die.
+  file: pls-no-die.png
+  scale: 50
+
+- name: revision required.
+  file: revision-required.png
+  scale: 55
+
+- name: sad penguin
+  file: sad-penguin.png
+  scale: 50
+
+- name: snuggles?
+  file: snuggles.png
+  scale: 50
+
+- name: sooo lazy
+  file: sooo-lazy.png
+  scale: 60
+
+- name: stop right there!
+  file: stop-right-there.png
+  scale: 85
+
+- name: thank you!
+  file: thank-you.png
+  scale: 60
+
+- name: the names bond
+  file: the-names-bond.png
+  scale: 80
+
+- name: what cookie?
+  file: what-cookie.png
+  scale: 80
+
+- name: youre a wizard!
+  file: youre-a-wizard.png
+  scale: 50
+
+- name: bon voyage
+  file: bon-voyage.png
+  scale: 52
+
+
+- name: gone tumbling
+  file: gone-tumbling.png
+  scale: 100
+
+- name: ease pease
+  file: ease-pease.png
+  scale: 80
+
+- name: groovin' party?
+  file: groovin-party.png
+  scale: 90
+
+- name: holidays! already?
+  file: holidays-already.png
+  scale: 85
+
+- name: huuuugs?
+  file: huuuugs.png
+  scale: 80
+
+- name: i dont even know.
+  file: i-dont-even-know.png
+  scale: 65

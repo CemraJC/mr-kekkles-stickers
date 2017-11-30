@@ -5,14 +5,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<meta name="author" content="Toby Reznov, Jason Cemra">
 
 	<!-- For that slick site preview -->
 	<meta property="og:url" content="{{ site.canonical-url }}">
 	<meta property="og:title" content="{{ site.preview-title }}">
-	<!-- <meta property="og:image" content="{{ site.canonical-url }}/img/preview-img.jpg"> -->
+	<!-- <meta property="og:image" content="{{ site.canonical-url }}/img/preview-img.png"> -->
 	<meta property="og:description" content="{{ site.description }}">
 	<meta property="og:type" content="website" />
 
@@ -40,8 +40,8 @@
 	</header>
 
 	<div class="jumbotron">
-		<img src="./img/stickers/stars.jpg">
-		<h3>Big boi image here</h3>
+		<img src="./img/jumbotron.png">
+		<h3>Everyday, think "fantastic".</h3>
 	</div>
 	
 	<hr>
@@ -52,13 +52,13 @@
 			{% if sticker.story %}
 			<div class="story-group">
 				<input type="checkbox" id="chk-{{sticker.file}}">
-				<label for="chk-{{sticker.file}}"><img src="./img/stickers/{{ sticker.file }}"></label>
+				<label for="chk-{{sticker.file}}"><img alt="{{ sticker.name }}" src="./img/stickers/{{ sticker.file }}" style="max-width: {{ sticker.scale }}%;"></label>
 				<div class="story">
 					<p>{{ sticker.story }}</p>
 				</div>
 			</div>
 			{% else %}
-			<img src="./img/stickers/{{ sticker.file }}">
+			<img alt="{{ sticker.name }}" src="./img/stickers/{{ sticker.file }}" style="width: {{ sticker.scale }}%;">
 			{% endif %}
 			<h3>{{ sticker.name }}</h3>
 		</div>

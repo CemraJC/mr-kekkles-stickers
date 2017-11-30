@@ -5,6 +5,8 @@ body, html {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: Open Sans, Arial;
+
+	overflow-x: hidden;
 }
 
 * {
@@ -26,6 +28,7 @@ hr {
 }
 
 header {
+
 	width: 100%;
 	padding: 3rem 0 2rem 0;
 }
@@ -73,13 +76,21 @@ header {
 .story-group .story {
 	display: inline-block;
 	position: absolute;
-	width: 65%;
+	width: 95%;
+	/*height: 70%;*/
+
+	text-align: center;
 	
 	pointer-events: none;
-	background: #FFFFFF;
+	background: #4F4F4F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 1px #B5B5B5;
 
-	right: -100%;
-	transition: right 500ms;
+	left: 3px;
+	bottom: 0;
+	opacity: 0;
+	transition: bottom 600ms, opacity 500ms;
 }
 
 .story-group .story p {
@@ -88,13 +99,14 @@ header {
 }
 
 .story-group input:checked ~ .story {
-	right: 0;
+	bottom: 10%;
+	opacity: 0.8;
 }
 
 .story-group input:checked ~ label img {
 	align-self: center;
-	width: 32%;
-	margin-bottom: 30%;
+	margin-bottom: 5%;
+	opacity: 0.8;
 }
 
 /* Element Styles */
@@ -135,7 +147,11 @@ header h2 {
 
 .sticker-group img {
 	display: block;
-	width: 100%;
+	margin: 0 auto;
+	align-self: center;
+
+	/* Default only - should have no effect */
+	width: 50%;
 }
 
 .sticker-group h3, .jumbotron h3 {
@@ -164,7 +180,8 @@ footer p {
 
 @media screen and (max-width: 400px) {
 	.wrapper {
-		margin: 0;
+		margin: 0 auto;
+		width: 90%;
 	}
 	header h1 {
 		font-size: 18pt;
