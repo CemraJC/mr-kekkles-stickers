@@ -1,6 +1,6 @@
-# penguin-stickers
+# Mr Kekkles, the Bouncy Penguin of Adventure!
 
-The official home of the Facebook™ Penguin Stickers
+The official home of the Facebook™ Penguin Stickers, starring Mr Kekkles, the cute lovable penguin.
 
 ## Licensing
 
